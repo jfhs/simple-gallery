@@ -1,0 +1,1 @@
+Drop your pictures to photos folder
