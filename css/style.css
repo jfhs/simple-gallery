@@ -23,7 +23,7 @@ html, body {
   padding-top: 25%;
   overflow: hidden;
 }
-.gallery .item img {
+.gallery .item img, .gallery .item video {
   top: 0;
   left: 0;
   position: absolute;
@@ -33,6 +33,10 @@ html, body {
   transition: 0.3s;
   transform: scale(1.3);
 }
+
+/*.gallery .item video {*/
+  /*transform: scale(1);*/
+/*}*/
 
 .gallery .item img:hover {
   transform: scale(1);
@@ -52,7 +56,7 @@ html, body {
   background: rgba(0, 0, 0, 0.8);
 }
 
-.lightbox img {
+.lightbox img, .lightbox video {
   /** Pad the lightbox image */
   max-width: 90%;
   max-height: 80%;
